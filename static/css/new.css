@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background: url(front.png);
+  background-repeat: no-repeat;
+  background-size:102% 110%;
+  background-position: right center;
+  margin:0;
+}
+header{
+  font-size: 5em;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 10%;
+  color: black;
+  text-shadow:1px 2px 1px #ffe4b5;
+}
+section{
+
+  width: 30%;
+  float: left;
+  margin-top: 20px;
+  padding: 0px; 
+  background: #550431;
+  border-radius: 10px;
+    color: antiquewhite;
+    
+/*  opacity: 50%;
+*/}
+.lv{
+  
+
+  margin-left: 15%;
+  padding: 10px;  
+
+}
+.lvtxt{
+  font-size: 40px;
+  text-align: center;
+}
+.upl{
+  text-align: center;
+  margin-left: 7%;
+
+  padding: 10px;
+}
+.upltxt{
+  font-size: 40px;
+  text-align: center;
+  
+
+}
+.res{
+  font-size: 1.3em;
+}
+@media(min-width: 992px){
+  .lv{
+    margin-left: : 15%;
+    
+  }
+  
+  
+}
